@@ -1,0 +1,23 @@
+{
+  "name": "font-osm",
+  "version": "1.0.0",
+  "description": "Font-Awesome 6 Open Street Map Icons",
+  "main": "dist/index.js",
+  "repository": "github.com/tyrauber/font-osm",
+  "author": "Ty Rauber <tyrauber@mac.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "prep": "sh scripts/build.sh"
+  },
+  "devDependencies": {
+    "csv-parse": "^5.3.6",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  },
+  "standard": {
+    "ignore": [
+      "./dist"
+    ]
+  }
+}
