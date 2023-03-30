@@ -1,0 +1,8 @@
+node_modules
+src/originals
+src/icons
+*.bz2
+*.db
+.DS_Store
+dist
+yarn.lock
