@@ -1,7 +1,7 @@
 var args = process.argv.slice(2);
 
 const sqlite3 = require('sqlite3').verbose();
-const master = new sqlite3.Database('./dist/font-osm.db');
+const master = new sqlite3.Database('./tmp/font-osm.db');
 
 async function query(db, query){
   return new Promise(function(resolve,reject){
